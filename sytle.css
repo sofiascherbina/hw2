@@ -1,0 +1,32 @@
+div{
+    width: 100px;
+    height: 100px;
+    margin-top:50px ;
+
+    animation-name: squareAnim;
+    animation-duration: 4s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-iteration-count: infinite;
+}
+@keyframes squareAnim{
+    0%{
+        background-color:blue;
+        transform:translate(50px,200px);
+    }
+    25%{
+        background-color:green;
+        transform: translate(200px,200px);
+    }
+    50%{
+        background-color:yellow;
+        transform: translate(200px,-10px);
+    }
+    75%{
+        background-color:red;
+        transform: translate(50px,-10px);
+    }
+    100%{
+        background-color:blue;
+        transform:translate(50px,200px);
+    }
+}
