@@ -4,7 +4,7 @@ div{
     margin-top:50px ;
 
     animation-name: squareAnim;
-    animation-duration: 4s;
+    animation-duration: 5s;
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
     animation-iteration-count: infinite;
 }
